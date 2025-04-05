@@ -68,11 +68,6 @@ The use of **SSIM** ensures that the model's output is not just pixel-accurate b
 ### **2. Dice Coefficient**
 - The Dice Coefficient (also known as the Sørensen–Dice index) measures the *overlap* between the predicted and ground truth regions.
 - It is particularly effective for *binary segmentation tasks* where the focus is on identifying *main text blocks* versus *background* or *decorative elements*.
-- Defined as:  
-  \[
-  \text{Dice} = \frac{2 \cdot |A \cap B|}{|A| + |B|}
-  \]
-  where \( A \) is the predicted region and \( B \) is the ground truth.
 
 ---
 
