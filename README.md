@@ -56,7 +56,7 @@ This project focuses on segmenting ***main text regions*** in digitized ***early
 
 To evaluate the performance of the **layout segmentation model**, I used the **Structural Similarity Index Measure (SSIM)** as the primary metric. SSIM compares the *visual similarity* between the predicted segmentation mask and the ground truth mask, providing a perceptual measure of how closely the predicted layout matches the expected one.
 
-### **1. Structural Similarity Index (SSIM)**
+### **Structural Similarity Index (SSIM)**
 - SSIM evaluates *luminance*, *contrast*, and *structural similarity* between two images.
 - In the context of segmentation masks, it helps assess how well the model captures the *layout structure* and *text region boundaries* of historical documents.
 - A **higher SSIM score** (closer to `1.0`) indicates that the predicted mask closely resembles the ground truth in terms of *spatial accuracy* and *layout consistency*.
@@ -64,10 +64,6 @@ To evaluate the performance of the **layout segmentation model**, I used the **S
 
 The use of **SSIM** ensures that the model's output is not just pixel-accurate but also *structurally faithful*, enabling better performance in *downstream tasks* such as **OCR**, **document restoration**, and **digital archiving**.
 
-
-### **2. Dice Coefficient**
-- The Dice Coefficient (also known as the Sørensen–Dice index) measures the *overlap* between the predicted and ground truth regions.
-- It is particularly effective for *binary segmentation tasks* where the focus is on identifying *main text blocks* versus *background* or *decorative elements*.
 
 ---
 
