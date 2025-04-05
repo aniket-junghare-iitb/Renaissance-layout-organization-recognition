@@ -115,17 +115,6 @@ The highest SSIM score observed was **0.9888**, indicating that the model was ab
 
 
 
-
-![Alt Text](GEN_IMAGES/8.jpg)
-![Alt Text](GEN_IMAGES/15.jpg)
-![Alt Text](GEN_IMAGES/291.jpg)
-![Alt Text](GEN_IMAGES/609.jpg)
-![Alt Text](GEN_IMAGES/318.jpg)
-![Alt Text](GEN_IMAGES/339.jpg)
-![Alt Text](GEN_IMAGES/364.jpg)
-![Alt Text](GEN_IMAGES/529.jpg)
-![Alt Text](GEN_IMAGES/530.jpg)
-
 ---
 
 ## 🚀 **Future Improvements**
