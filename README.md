@@ -33,7 +33,7 @@ This project focuses on segmenting ***main text regions*** in digitized ***early
 - A **learning rate scheduler** (**`ReduceLROnPlateau`**) is employed to dynamically reduce the learning rate when *validation loss* plateaus.
 
 #### **Training Parameters**
-- Trained for **50 epochs** with a **batch size of 4**.
+- Trained for **500 epochs** with a **batch size of 4**.
 - At each step, the model’s performance is evaluated using the **Dice coefficient**, providing a balance between *precision* and *recall* for *imbalanced segmentation tasks*.
 
 ### **5. Evaluation & Visualization**
@@ -92,7 +92,7 @@ The highest SSIM score observed was **0.9888**, indicating that the model was ab
 
 ---
 
-## 🖼 **Sample Generated Images**
+## 🖼 **Recognized Layout Organization**
 
 <p align="center">
   <img src="GEN_IMAGES/8.jpg" width="200" />
@@ -143,7 +143,7 @@ Combining outputs from multiple lightweight U-Net variants or using *knowledge d
 ## 🔗 **Download Trained Model**
 
 You can download the trained Layout Organization Recognition model weights here:
-- [**Layout Organization Recognition Weights** (`generator_renaissance.pth`)](https://drive.google.com/file/d/1H7wMh_L24c4AzKGyD9YH60hgfO_ycgzI/view?usp=sharing)
+- [**Layout Organization Recognition Weights** (`layout_organization_recognition_model.pth`)](https://drive.google.com/file/d/1DbjUIDHpj9yE-W0vBb7LW3snDo527nkR/view?usp=sharing)
 
 ---
 
